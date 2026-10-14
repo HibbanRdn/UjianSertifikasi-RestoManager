@@ -1,0 +1,14 @@
+-- Jalankan sebagai administrator database setelah mengganti placeholder password.
+-- Akun ini hanya diberi akses DML ke database khusus RestoManager.
+
+CREATE USER IF NOT EXISTS 'restomanager_app'@'127.0.0.1'
+    IDENTIFIED BY 'GANTI_PASSWORD_LOKAL';
+
+ALTER USER 'restomanager_app'@'127.0.0.1'
+    IDENTIFIED BY 'GANTI_PASSWORD_LOKAL';
+
+GRANT SELECT, INSERT, UPDATE, DELETE
+    ON restomanager.*
+    TO 'restomanager_app'@'127.0.0.1';
+
+FLUSH PRIVILEGES;

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Placeholder foto menu</title>
+  <rect width="800" height="600" fill="#efe8dc"/>
+  <circle cx="400" cy="290" r="170" fill="#fff" stroke="#8a5a37" stroke-width="14"/>
+  <path d="M270 300c70-105 190-105 260 0-70 95-190 95-260 0Z" fill="#d38b45"/>
+  <text x="400" y="535" text-anchor="middle" font-family="system-ui, sans-serif" font-size="34" fill="#5b3a25">RestoManager</text>
+</svg>

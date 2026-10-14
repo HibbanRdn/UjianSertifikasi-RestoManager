@@ -1,0 +1,1 @@
+<section class="error-page"><div class="container narrow-copy"><span class="error-code"><?= (int) $statusCode ?></span><h1><?= e($message) ?></h1><p>Kembali ke halaman yang aman dan coba ulang tindakan Anda.</p><a class="btn btn-leaf" href="/">Kembali ke beranda</a></div></section>

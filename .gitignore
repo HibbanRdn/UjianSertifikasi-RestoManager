@@ -1,0 +1,25 @@
+/.env
+/.env.*
+!/.env.example
+/vendor/
+/.phpunit.cache/
+/.phpunit.result.cache
+/storage/logs/
+/public/uploads/menu/*
+!/public/uploads/menu/.gitkeep
+
+# Artefak pengumpulan dan dokumen di luar source aplikasi.
+/Laporan/
+/Diagram/
+/Pengumpulan/
+/docs/screenshots/
+/docs/test-evidence/
+*.pdf
+*.ppt
+*.pptx
+*.zip
+*.mov
+
+# Jangan pernah memublikasikan QRIS merchant nyata.
+/public/assets/img/qris-dana-bisnis.jpeg
+.DS_Store

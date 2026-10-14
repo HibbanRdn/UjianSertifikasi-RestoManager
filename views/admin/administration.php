@@ -1,0 +1,7 @@
+<header class="admin-page-head content-width"><div><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/admin/dashboard">Dashboard</a><span aria-hidden="true">/</span><span>Administrasi</span></nav><h1>Pusat administrasi</h1><p>Kelola data master restoran dari satu tempat. Perubahan historis tetap dipertahankan.</p></div></header>
+<section class="content-width administration-grid" aria-label="Modul administrasi">
+    <a href="/admin/categories"><span class="administration-icon"><svg><use href="#icon-grid"/></svg></span><div><h2>Kategori</h2><p>Atur pengelompokan menu dan visibilitas katalog.</p><strong><?= (int) $counts['categories'] ?> kategori</strong></div><svg><use href="#icon-arrow"/></svg></a>
+    <a href="/admin/menu"><span class="administration-icon"><svg><use href="#icon-menu"/></svg></span><div><h2>Menu</h2><p>Kelola harga, foto, ketersediaan, dan tampilan menu.</p><strong><?= (int) $counts['menu_items'] ?> menu</strong></div><svg><use href="#icon-arrow"/></svg></a>
+    <a href="/admin/tables"><span class="administration-icon"><svg><use href="#icon-grid"/></svg></span><div><h2>Meja</h2><p>Atur kode dan status aktif meja dine-in.</p><strong><?= (int) $counts['tables'] ?> meja</strong></div><svg><use href="#icon-arrow"/></svg></a>
+    <a href="/admin/staff"><span class="administration-icon"><svg><use href="#icon-user"/></svg></span><div><h2>Petugas</h2><p>Buat akun operasional dan kelola akses Petugas.</p><strong><?= (int) $counts['staff'] ?> akun</strong></div><svg><use href="#icon-arrow"/></svg></a>
+</section>
